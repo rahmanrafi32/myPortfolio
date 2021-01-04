@@ -1,0 +1,109 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;  
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h5{
+    color: Coral;
+    font-size: 20px;
+}
+
+.highlighter{
+    color: aquamarine;
+}
+
+
+.upperleft{
+    padding: 10px 50px;
+    padding-left: 5%;
+    margin-left: 2%;
+    width: 40%;
+    float: left;
+}
+.topBanner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+
+section{
+    height: 450px;
+    padding-bottom: 100px;
+}
+
+.anchor{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image:linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.middle{
+    padding: 10px 50px;
+    padding-left: 5%;
+    margin-left: 2%;
+    width: 30%;
+    float: left;
+}
+
+
+
+.middleBanner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.bottomBanner{
+    margin-top: 0;
+    padding-top: 0%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    padding: 10px 40px;
+    padding-left: 5%;
+    margin-left: 3%;
+    margin-top:0 ;
+    width: 40%;
+    float: left;
+}
+
+.experiencedesign{
+    box-shadow: 10px 10px 40px grey;
+    height: 70%;
+    border-radius: 10px;
+    margin-left:30px ;
+    font-size: 16px;
+}
+
+.ex1{
+    border-left: 7px solid DarkOrange;
+    border-image: linear-gradient(180deg,tomato, lightSalmon);
+    border-image-slice: 1;
+}
+
+.ex2{
+    border-left: 7px solid DarkTurquoise;
+    border-image: linear-gradient(180deg, cyan,blue);
+    border-image-slice: 1;
+}
